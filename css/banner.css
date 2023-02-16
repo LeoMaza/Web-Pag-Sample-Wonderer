@@ -1,0 +1,57 @@
+#banner{
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+} 
+
+#c-slider{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+#slider{
+    display: flex;
+    width: 300%;
+    overflow: hidden;
+}
+
+#slider section{
+    width:100%;
+}
+
+#slider img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#btn-prev, #btn-next{
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    line-height: 40px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 100;
+}
+
+#btn-prev:hover, #btn-next:hover{
+    background: rgba(255, 255, 255, 1);
+
+}
+#btn-prev{
+    left: 10px;
+}
+#btn-next{
+    right: 10px;
+}
